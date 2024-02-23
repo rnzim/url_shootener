@@ -75,6 +75,11 @@ if(isset($_GET['u'])){
 										Por Favor Preencha Os Campos Corretamente
 									  </div>';
 									}
+									if($_GET['status']=='invalid'){
+										echo '<div class="alert alert-danger" role="alert">
+										Por Favor Preencha Com Uma Url
+									  </div>';
+									}
 								}
 								?>
 								<h1>rnzm.online</h1>
